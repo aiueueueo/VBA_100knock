@@ -9,7 +9,6 @@ Sub Q1()
     'ただしSelectメソッドは使用禁止
     '※行高と列幅の設定はしなくて良い。
 
-    Worksheets("Sheet1").Range("A1:C5").Copy _
-        Worksheets("Sheet2").Range("A1:C5")
+    Worksheets("Sheet1").Range("A1:C5").Copy Worksheets("Sheet2").Range("A1:C5")
 
 End Sub
