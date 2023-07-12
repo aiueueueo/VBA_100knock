@@ -16,3 +16,9 @@
     - [http://officetanaka.net/excel/vba/tips/tips118.htm](http://officetanaka.net/excel/vba/tips/tips118.htm)
         - 指定したセル範囲1とセル範囲2で共有しているセル範囲を返す
         - 共有しているセル範囲が無い場合はNothingを返す
+- SpecialCells
+    -[https://excelwork.info/excel/specialcells/](https://excelwork.info/excel/specialcells/)
+        - 指定した条件に一致するセルを取得
+- On Error
+    -[http://officetanaka.net/excel/vba/statement/OnError.htm](http://officetanaka.net/excel/vba/statement/OnError.htm)
+        - エラー処理ルーチンを有効にし、エラーが発生した時の処理を有効にする
