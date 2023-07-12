@@ -10,7 +10,7 @@ Option Explicit
 
 Public Sub Q3-1()
 
-    'Offsetでずらしているのではみ出る(この問題ではこのやり方でも問題ない)
+    'Offsetでずらしているのではみ出る
     Range("A1").CurrentRegion.Offset(1, 1).ClearContents
 
 End Sub
