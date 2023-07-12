@@ -21,4 +21,4 @@
         - 指定した条件に一致するセルを取得
 - On Error
     -[http://officetanaka.net/excel/vba/statement/OnError.htm](http://officetanaka.net/excel/vba/statement/OnError.htm)
-        - エラー処理ルーチンを有効にし、エラーが発生した時の処理を有効にする
+        - エラー処理ルーチンを有効にしエラーが発生した時の処理を有効にする
