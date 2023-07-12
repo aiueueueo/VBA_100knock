@@ -1,4 +1,3 @@
-Attribute VB_Name = "Module1"
 Attribute Value = "Q3"
 Option Explicit
 
@@ -10,13 +9,30 @@ Option Explicit
 
 Public Sub Q3-1()
 
-    'Offsetでずらしているのではみ出る
+    'Offsetでずらしているのではみ出る(この問題ではこのやり方でも問題ない)
     Range("A1").CurrentRegion.Offset(1, 1).ClearContents
 
 End Sub
 
+'Resizeではみ出した部分を消去
 Public Sub Q3-2()
 
-    '
+    With Range("A1").CurrentRegion
+
+        .Offset(1, 1).Resize(.Rows.Count - 1, .Columns.Count - 1).ClearContents
+
+    End With
+
+End Sub
+
+'Intersect(解説サイトに掲載されている方法)
+Public Sub Q3-3()
+
+    With Range("A1").CurrentRegion
+
+        'Intersectで重なっている範囲を判定し消去
+        .intersect(.Cells, .Offset(1, 1)).ClearContents
+
+    End With
 
 End Sub
