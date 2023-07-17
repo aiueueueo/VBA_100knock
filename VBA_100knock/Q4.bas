@@ -1,4 +1,4 @@
-Attribute Value = "Q4"
+Attribute VB_Name = "Q4"
 Option Explicit
 
 '#VBA100本ノック 4本目
@@ -9,7 +9,7 @@ Option Explicit
 '見出し行とA列№と計算式は残し、定数値だけを消去してください。
 
 '範囲の最下行と一番右の列に計算式が入っている場合
-Public Sub Q4-1()
+Public Sub Q4_1()
 
     With Range("A1").CurrentRegion
 
@@ -19,7 +19,7 @@ Public Sub Q4-1()
 
 End Sub
 
-Public Sub Q4-2()
+Public Sub Q4_2()
 
     With Range("A1").CurrentRegion.Offset(1, 1)
 
