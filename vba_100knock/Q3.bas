@@ -1,4 +1,3 @@
-Attribute VB_Name = "Q3"
 Option Explicit
 
 '#VBA100本ノック 3本目
