@@ -1,3 +1,4 @@
+Attribute Value = "Q3"
 Option Explicit
 
 '#VBA100本ノック 3本目
@@ -6,32 +7,15 @@ Option Explicit
 'この表の見出し（1行目）と№（A列）を残して、データ部分のみ値を消去してください。
 '※シートはアクティブシート
 
-Public Sub Q3_1()
+Public Sub Q3-1()
 
     'Offsetでずらしているのではみ出る(この問題ではこのやり方でも問題ない)
     Range("A1").CurrentRegion.Offset(1, 1).ClearContents
 
 End Sub
 
-'Resizeではみ出した部分を消去
-Public Sub Q3_2()
+Public Sub Q3-2()
 
-    With Range("A1").CurrentRegion
-
-        .Offset(1, 1).Resize(.Rows.Count - 1, .Columns.Count - 1).ClearContents
-
-    End With
-
-End Sub
-
-'Intersect(解説サイトに掲載されている方法)
-Public Sub Q3_3()
-
-    With Range("A1").CurrentRegion
-
-        'Intersectで重なっている範囲を判定し消去
-        .intersect(.Cells, .Offset(1, 1)).ClearContents
-
-    End With
+    '
 
 End Sub
