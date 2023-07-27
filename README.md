@@ -17,15 +17,15 @@
         - 指定したセル範囲1とセル範囲2で共有しているセル範囲を返す
         - 共有しているセル範囲が無い場合はNothingを返す
 - SpecialCells
-    -[https://excelwork.info/excel/specialcells/](https://excelwork.info/excel/specialcells/)
+    - [https://excelwork.info/excel/specialcells/](https://excelwork.info/excel/specialcells/)
         - 指定した条件に一致するセルを取得
 - On Error
-    -[http://officetanaka.net/excel/vba/statement/OnError.htm](http://officetanaka.net/excel/vba/statement/OnError.htm)
+    - [http://officetanaka.net/excel/vba/statement/OnError.htm](http://officetanaka.net/excel/vba/statement/OnError.htm)
         - エラー処理ルーチンを有効にし、エラーが発生した時の処理を有効にする
 - Like
-    -[https://excel-ubara.com/excelvba1/EXCELVBA349.html](https://excel-ubara.com/excelvba1/EXCELVBA349.html)
+    - [https://excel-ubara.com/excelvba1/EXCELVBA349.html](https://excel-ubara.com/excelvba1/EXCELVBA349.html)
         - 部分一致やパターンマッチングでの文字列比較を行うときに使う
 - Instr
-    -[https://excel-ubara.com/excelvba8/EXCELVBA819.html](https://excel-ubara.com/excelvba8/EXCELVBA819.html)
+    - [https://excel-ubara.com/excelvba8/EXCELVBA819.html](https://excel-ubara.com/excelvba8/EXCELVBA819.html)
         - 文字列の中から指定した文字列を検索
 
