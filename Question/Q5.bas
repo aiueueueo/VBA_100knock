@@ -7,7 +7,7 @@ Option Explicit
 '例.D3にはB3×C3の計算結果の値を「\234,099」で表示、D5は空欄
 '※ブック・シートは任意
 
-Public Sub Q5_1()
+Public Sub Q5()
 
     '最終行の取得
     Dim r As Long
