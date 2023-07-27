@@ -22,3 +22,10 @@
 - On Error
     -[http://officetanaka.net/excel/vba/statement/OnError.htm](http://officetanaka.net/excel/vba/statement/OnError.htm)
         - エラー処理ルーチンを有効にし、エラーが発生した時の処理を有効にする
+- Like
+    -[https://excel-ubara.com/excelvba1/EXCELVBA349.html](https://excel-ubara.com/excelvba1/EXCELVBA349.html)
+        - 部分一致やパターンマッチングでの文字列比較を行うときに使う
+- Instr
+    -[https://excel-ubara.com/excelvba8/EXCELVBA819.html](https://excel-ubara.com/excelvba8/EXCELVBA819.html)
+        - 文字列の中から指定した文字列を検索
+
