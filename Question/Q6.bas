@@ -1,16 +1,10 @@
 Option Explicit
 
-    '#VBA100本ノック 6本目
-    '画像のようにA1から始まる表があります。
-    'D列にB列×C列の計算式を入れてください。
-    'ただし商品コードに"-"の枝番が付いている場合は計算式を入れずそのままにしてください。
-    '例.D2にはA2×B2の計算式を入れる。D4:D5には計算式を入れない。
-
 Public Sub Q6_1()
 
     '最終行の取得
     Dim r As Long
-    r = Range("A1").CurrentRegion.Rows.Count + 1
+    r = Range("A1").CurrentRegion.Rows.Count
 
     Dim i As Long
     For i = 2 To r

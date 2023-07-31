@@ -1,7 +1,11 @@
 # VBA 100本ノック
 - [https://excel-ubara.com/vba100/](https://excel-ubara.com/vba100/)
 
-## memo
+## Excelについてのmemo
+- R1C1参照形式
+    - [https://www.relief.jp/docs/003125.html](https://www.relief.jp/docs/003125.html)
+
+## VBAについてのmemo
 - CurrentReigon
     - [https://excel-ubara.com/excelvba1/EXCELVBA328.html](https://excel-ubara.com/excelvba1/EXCELVBA328.html)
         - 選択したセルを軸にして、空白の行と列で囲まれた範囲を選択する
@@ -28,4 +32,17 @@
 - Instr
     - [https://excel-ubara.com/excelvba8/EXCELVBA819.html](https://excel-ubara.com/excelvba8/EXCELVBA819.html)
         - 文字列の中から指定した文字列を検索
+- IsDate
+    - [https://excel-ubara.com/excelvba8/EXCELVBA822.html](https://excel-ubara.com/excelvba8/EXCELVBA822.html)
+        - 式を日付に変換出来るかどうかを調べ、結果をプール型で返す
+- Raplace
+    - [https://excel-ubara.com/excelvba1/EXCELVBA399.html](https://excel-ubara.com/excelvba1/EXCELVBA399.html)
+        - 文字列の置換
+- CDate
+    - [https://excel-ubara.com/excelvba8/EXCELVBA874.html](https://excel-ubara.com/excelvba8/EXCELVBA874.html)
+        - 引数がDate型に変換出来る場合は変換を行う、それ以外の場合はエラー
+- DateSerial
+    - [https://excel-ubara.com/excelvba8/EXCELVBA843.html](https://excel-ubara.com/excelvba8/EXCELVBA843.html)
+        - 引数に指定した年月日に対応する日付をVariant型で返す
+
 
