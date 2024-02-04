@@ -6,20 +6,20 @@ Public Sub Question9()
     Dim wsSeiseki As Worksheet
     Dim wsGoukaku As Worksheet
 
-    Set wsSeiseki = Worksheets("¬Ñ•\")
+    Set wsSeiseki = Worksheets("æˆç¸¾è¡¨")
 
-    If Not SheetCheck("‡ŠiÒ") Then
-        Set wsGoukaku = Worksheets.Add(After:=Worksheets("¬Ñ•\"))
-        wsGoukaku.Name = "‡ŠiÒ"
+    If Not SheetCheck("åˆæ ¼è€…") Then
+        Set wsGoukaku = Worksheets.Add(After:=Worksheets("æˆç¸¾è¡¨"))
+        wsGoukaku.Name = "åˆæ ¼è€…"
     Else
-        Set wsGoukaku = Worksheets("‡ŠiÒ")
+        Set wsGoukaku = Worksheets("åˆæ ¼è€…")
         wsGoukaku.Cells.ClearContents
     End If
 
     With wsSeiseki
 
         .AutoFilterMode = False
-        .Range("A1").AutoFilter Field:=7, Criteria1:="‡Ši"
+        .Range("A1").AutoFilter Field:=7, Criteria1:="åˆæ ¼"
         .Columns("A").Copy
         wsGoukaku.Range("A1").PasteSpecial
         .AutoFilterMode = False
@@ -28,6 +28,7 @@ Public Sub Question9()
 
 End Sub
 
+'ã‚·ãƒ¼ãƒˆãƒã‚§ãƒƒã‚¯
 Public Function SheetCheck(wsName As String) As Boolean
 
     Dim ws As Worksheet
